@@ -93,8 +93,8 @@
 		          	<span class="subheading">Bienvenue</span>
 		            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">A propos</h2>
 		            <p>
-						Vous souhaitez réaliser le projet de vos rêves et mettre toutes les chance de votre coté ?
-						Vous souhaitez donner vie à vos projets de constructions, de rénovations et d’aménagements intérieures ?
+						Vous souhaitez réaliser le projet de vos rêves et mettre toutes les chances de votre côté ?
+						Vous souhaitez donner vie à vos projets de construction, de rénovation et d’aménagement intérieur ?
 					</p>
 		          </div>
 		        </div>
@@ -121,7 +121,7 @@
 		        		<div class="media block-4 services d-block ftco-animate">
 		              <div class="icon"><span class="fas fa-hand-holding-usd"></span></div>
 		              <div class="media-body">
-		                <h3 class="heading mb-3">Budgetisation</h3>
+		                <h3 class="heading mb-3">Budgétisation</h3>
 		                <p>Réalisation d’une étude afin de déterminer votre budget.</p>
 		              </div>
 		            </div> 
@@ -148,8 +148,8 @@
 	    <div class="row justify-content-center py-5 mt-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<span class="subheading">Mes services</span>
-            <h2 class="mb-4">De la budgetisation au permis de construire</h2>
-            <p>Je vous accompagne dans la réussite de vos projets de constructions</p>
+            <h2 class="mb-4">De la budgétisation au permis de construire</h2>
+            <p>Je vous accompagne dans la réussite de vos projets de construction</p>
           </div>
         </div>
 
@@ -160,11 +160,11 @@
 								<i class="fas fa-hand-holding-usd"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5"><a href="#contact-section">Conseil et budgetisation</a></h3>
-								<h4>Analyse et réponse aux appels d’offre</h4>
-								<h4>Métré et étude de prix au déboursés</h4>
+								<h3 class="mb-5"><a href="#contact-section">Conseil et budgétisation</a></h3>
+								<h4>Analyses et réponses aux appels d’offres</h4>
+								<h4>Métrés et étude de prix</h4>
 								<h4>Rédaction des DCE et CCTP</h4>
-								<h4>Consultation fournisseurs, sous-traitants afin d'établir des budgets</h4>
+								<h4>Consultations fournisseurs et sous-traitants afin d'établir des budgets</h4>
 							</div>
 						</div>
 					</div>
@@ -174,9 +174,9 @@
 								<i class="fas fa-drafting-compass"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5"><a href="#contact-section">Plan et permis</a></h3>
-								<h4>Réalisation de plans existants et projet au format DWG et PDF</h4>
-								<h4>Demande préalable de travaux auprès de mairie et collectivité </h4>
+								<h3 class="mb-5"><a href="#contact-section">Plans et permis</a></h3>
+								<h4>Réalisation de plans existants et projets au format DWG et PDF</h4>
+								<h4>Demande préalable de travaux auprès de Mairie et Collectivité </h4>
 								<h4>Permis de construire</h4>
 							</div>
 						</div>
@@ -189,7 +189,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-lg-9 d-flex align-items-center ftco-animate">
-						<h2>Mettez <span>toutes les chances</span> de votre coté</h2>
+						<h2>Mettez <span>toutes les chances</span> de votre côté</h2>
 					</div>
 					<div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
 						<p class="mb-0"><a href="#contact-section" class="btn btn-white py-4 px-5">Me contacter</a></p>
@@ -329,7 +329,21 @@
     </section>
 	
 	-->
+	
+	<script type="text/javascript">
+     function sendEmail() {
+       window.open('mailto:contact@silasmarlot.fr?subject='+document.getElementById('nomContact').value+' : '+document.getElementById('demandeContact').value+'&body='+document.getElementById('messageContact').value+'');
+	}
+	
+	
+	</script>
+	
+	<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 
+
+
+	
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
@@ -344,19 +358,16 @@
           <div class="col-md-6 order-md-last d-flex">
             <form action="#" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Votre nom">
+                <input type="text" class="form-control" id="nomContact" placeholder="Votre nom">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Votre Mail">
+                <input type="text" class="form-control" id="demandeContact" placeholder="Votre question/demande">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Votre question/demande">
+                <textarea cols="30" rows="7" id="messageContact" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Envoyer" class="btn btn-primary py-3 px-5">
+                <input type="button"  onclick="sendEmail()" value="Envoyer" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
@@ -393,7 +404,7 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">28 rue du Faubourg de Bourgogne, Orléans 45000, France</span></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@silasmarlot.fr</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">contact@silasmarlot.fr</span></a></li>
 	              </ul>
 	            </div>
             </div>
